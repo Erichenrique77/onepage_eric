@@ -1,13 +1,21 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-  $('#btn-menu').click(function(e){
+  $('#btn-menu').click(function (e) {
     e.preventDefault()
     $('#menu').toggle('slow')
   })
 
-  $('a').click(function(e){
+  $('a').click(function (e) {
     e.preventDefault()
     let url = $(this).attr('href')
-    $('#'+url).show()
-  })
-})
+    $('#' + url).show()
+
+    if (id == 'home') {
+      $("# + id").show();
+      $("#acao").hide();
+      $("#sobre").hide();
+      $("#contact").hide();
+      } else if 
+  });
+
+});
