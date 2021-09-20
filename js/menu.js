@@ -5,17 +5,20 @@ $(document).ready(function () {
     $('#menu').toggle('slow')
   })
 
-  $('a').click(function (e) {
+ $('a').click(function(e){
     e.preventDefault()
     let url = $(this).attr('href')
-    $('#' + url).show()
+    $('#'+url).show()
 
-    if (id == 'home') {
-      $("# + id").show();
-      $("#acao").hide();
-      $("#sobre").hide();
-      $("#contact").hide();
-      } else if 
-  });
+    if (id == '#home') {
+      $('home').toggle();
+      $('acao').hide(1000);
+      $('sobre').hide(1000);
+      $('contact').hide(1000);
+      
 
-});
+
+      }
+
+  })
+}) 
